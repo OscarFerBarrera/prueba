@@ -1,0 +1,48 @@
+.card {
+  width: 75%;
+  height: 280px;
+  background-color: red;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.card__user {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.card__img {
+  border-radius: 50%;
+  height: 40px;
+  margin-right: 10px;
+}
+.card__name {
+  margin: 0;
+}
+.card__work {
+  color: whitesmoke;
+  margin: 0;
+}
+.card__name {
+  font-size: 18px;
+}
+.card__title, .card__description {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  display: grid;
+  justify-items: center;
+  grid-template-areas: "card1" "card2" "card3" "card4" "card5";
+  gap: 20px;
+}/*# sourceMappingURL=main.css.map */

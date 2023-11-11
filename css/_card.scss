@@ -1,0 +1,44 @@
+.card{
+    width: 75%;
+    height: 280px;
+    background-color:red;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-around;
+
+    &__user{
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    &__img{
+        border-radius: 50%;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    &__name{
+        margin: 0;
+    }
+    &__work{
+        color: whitesmoke;
+        margin: 0;
+    }
+
+    &__name{
+        font-size: 18px;
+    }
+
+    &__title, &__description{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+    }
+}
